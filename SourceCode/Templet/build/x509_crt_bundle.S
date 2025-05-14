@@ -1,4 +1,4 @@
-/* * Data converted from C:/Users/dell/Desktop/LVGL/LVGL/SourceCode/Templet/project-name/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Users/dell/Desktop/LVGL/LVGL/SourceCode/Templet/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

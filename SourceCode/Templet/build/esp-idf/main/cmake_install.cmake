@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/dell/Desktop/LVGL/LVGL/SourceCode/Templet/project-name/main
+# Install script for directory: C:/Users/dell/Desktop/LVGL/LVGL/SourceCode/Templet/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

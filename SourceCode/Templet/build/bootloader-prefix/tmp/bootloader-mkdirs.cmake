@@ -5,18 +5,18 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "C:/Users/dell/esp/v5.1.2/esp-idf/components/bootloader/subproject"
-  "C:/Users/dell/Desktop/LVGL/LVGL/SourceCode/Templet/project-name/build/bootloader"
-  "C:/Users/dell/Desktop/LVGL/LVGL/SourceCode/Templet/project-name/build/bootloader-prefix"
-  "C:/Users/dell/Desktop/LVGL/LVGL/SourceCode/Templet/project-name/build/bootloader-prefix/tmp"
-  "C:/Users/dell/Desktop/LVGL/LVGL/SourceCode/Templet/project-name/build/bootloader-prefix/src/bootloader-stamp"
-  "C:/Users/dell/Desktop/LVGL/LVGL/SourceCode/Templet/project-name/build/bootloader-prefix/src"
-  "C:/Users/dell/Desktop/LVGL/LVGL/SourceCode/Templet/project-name/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/dell/Desktop/LVGL/LVGL/SourceCode/Templet/build/bootloader"
+  "C:/Users/dell/Desktop/LVGL/LVGL/SourceCode/Templet/build/bootloader-prefix"
+  "C:/Users/dell/Desktop/LVGL/LVGL/SourceCode/Templet/build/bootloader-prefix/tmp"
+  "C:/Users/dell/Desktop/LVGL/LVGL/SourceCode/Templet/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/dell/Desktop/LVGL/LVGL/SourceCode/Templet/build/bootloader-prefix/src"
+  "C:/Users/dell/Desktop/LVGL/LVGL/SourceCode/Templet/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/dell/Desktop/LVGL/LVGL/SourceCode/Templet/project-name/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/dell/Desktop/LVGL/LVGL/SourceCode/Templet/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/dell/Desktop/LVGL/LVGL/SourceCode/Templet/project-name/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/dell/Desktop/LVGL/LVGL/SourceCode/Templet/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

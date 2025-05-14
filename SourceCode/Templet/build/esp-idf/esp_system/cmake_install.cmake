@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/dell/Desktop/LVGL/LVGL/SourceCode/Templet/project-name/build/esp-idf/esp_system/port/cmake_install.cmake")
+  include("C:/Users/dell/Desktop/LVGL/LVGL/SourceCode/Templet/build/esp-idf/esp_system/port/cmake_install.cmake")
 endif()
 
